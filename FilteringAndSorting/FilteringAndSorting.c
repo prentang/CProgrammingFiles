@@ -107,7 +107,7 @@ int main()
     char c;                                      // Store the current cha
 
     // Read input char until EOF or max input length is reached
-    while ((c = getchar()) != EOF && total_input_chars < MAX_INPUT_LENGTH)
+    while (scanf("%c", &c) != EOF && total_input_chars < MAX_INPUT_LENGTH)
     {
         total_input_chars++;                     // Increment total input char 
         // Check for whitespace  
